@@ -16,5 +16,14 @@
       <description>zabbix是一个监控软件，其可以监控各种网络参数，保证企业服务架构安全运营，同时支持灵活的告警机制，可以使得运维人员快速定位故障、解决问题zabbix是一个监控软件，其可以监控各种网络参数，保证企业服务架构安全运营，同时支持灵活的告警机制，可以使得运维人员快速定位故障、解决问题</description>
     </item>
     
+    <item>
+      <title>Zabbix</title>
+      <link>http://hugo.itshare.work/posts/zabbix/zabbix/</link>
+      <pubDate>Thu, 02 Mar 2023 15:07:46 +0000</pubDate>
+      
+      <guid>http://hugo.itshare.work/posts/zabbix/zabbix/</guid>
+      <description>Zabbix是一个企业级解决方案，支持实时监控数千台服务器，虚拟机和网络设备，采集百万级监控指标，适用于任何IT基础架构、服务、应用程序和资源的解决方案</description>
+    </item>
+    
   </channel>
 </rss>

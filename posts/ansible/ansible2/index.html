@@ -576,7 +576,7 @@ var _hmt = _hmt || [];
 <p>官方链接</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
 </span></span></code></pre></div><h3 id="playbook-组成">Playbook 组成<a hidden class="anchor" aria-hidden="true" href="#playbook-组成">#</a></h3>
-<p><img loading="lazy" src="../image.assets/1677299110747.png" alt="1677299110747"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677299110747.png" alt="1677299110747"  />
 </p>
 <ul>
 <li>一个 playbook(剧本)文件是一个YAML语言编写的文本文件</li>
@@ -720,7 +720,7 @@ key和value之间用冒号 ：分隔
 <li>JSON：JavaScript Object Notation, JavaScript 对象表记法，主要用来数据交换或配置，不支持注释</li>
 <li>YAML：YAML Ain&rsquo;t Markup Language YAML 不是一种标记语言， 主要用来配置，大小写敏感，不支持tab</li>
 </ul>
-<p><img loading="lazy" src="../image.assets/1677310138888.png" alt="1677310138888"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677310138888.png" alt="1677310138888"  />
 </p>
 <p>可以用工具互相转换，参考网站：
 <a href="https://www.json2yaml.com/">https://www.json2yaml.com/</a>
@@ -907,25 +907,25 @@ Notify对应的action 在所有task都执行完才会最后被触发，这样可
 <li>handlers 是在所有前面的tasks都成功执行才会执行,如果前面任何一个task失败,会导致handle跳过执行</li>
 </ul>
 <p>案例:</p>
-<p><img loading="lazy" src="../image.assets/1677315798458.png" alt="1677315798458"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677315798458.png" alt="1677315798458"  />
 </p>
-<p><img loading="lazy" src="../image.assets/1677315812687.png" alt="1677315812687"  />
-</p>
-<p>案例：</p>
-<p><img loading="lazy" src="../image.assets/1677315839869.png" alt="1677315839869"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677315812687.png" alt="1677315812687"  />
 </p>
 <p>案例：</p>
-<p><img loading="lazy" src="../image.assets/1677315862982.png" alt="1677315862982"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677315839869.png" alt="1677315839869"  />
 </p>
-<p><img loading="lazy" src="../image.assets/1677315872464.png" alt="1677315872464"  />
+<p>案例：</p>
+<p><img loading="lazy" src="/posts.images/image.assets/1677315862982.png" alt="1677315862982"  />
+</p>
+<p><img loading="lazy" src="/posts.images/image.assets/1677315872464.png" alt="1677315872464"  />
 </p>
 <p>范例: 部署haproxy</p>
-<p><img loading="lazy" src="../image.assets/1677315902745.png" alt="1677315902745"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677315902745.png" alt="1677315902745"  />
 </p>
 <h3 id="force_handlers">force_handlers<a hidden class="anchor" aria-hidden="true" href="#force_handlers">#</a></h3>
 <p>如果不论前面的task成功与否,都希望handlers能执行, 可以使用force_handlers: yes 强制执行handler
 范例: 强制调用handlers</p>
-<p><img loading="lazy" src="../image.assets/1677315975960.png" alt="1677315975960"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677315975960.png" alt="1677315975960"  />
 </p>
 <h2 id="playbook中使用tags组件">Playbook中使用tags组件<a hidden class="anchor" aria-hidden="true" href="#playbook中使用tags组件">#</a></h2>
 <p>官方文档:</p>
@@ -935,7 +935,7 @@ Notify对应的action 在所有task都执行完才会最后被触发，这样可
 还有另外3个特殊关键字用于标签, tagged, untagged 和 all,它们分别是仅运行已标记，只有未标记和所有任务。
 tags 主要用于调试环境
 范例： tag 标签</p>
-<p><img loading="lazy" src="../image.assets/1677316033321.png" alt="1677316033321"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677316033321.png" alt="1677316033321"  />
 </p>
 <h2 id="playbook中使用变量">Playbook中使用变量<a hidden class="anchor" aria-hidden="true" href="#playbook中使用变量">#</a></h2>
 <p>Playbook中同样也支持变量
@@ -1421,7 +1421,7 @@ facts 变量的实际使用场景案例</p>
 模板文件中支持嵌套jinja2语言的指令,来实现变量,条件判断,循环等功能
 需要使用template模块实现文件的复制到远程主机,但和copy模块不同,复制过去的文件每个主机可以会有所不同</p>
 <h3 id="jinja2语言">jinja2语言<a hidden class="anchor" aria-hidden="true" href="#jinja2语言">#</a></h3>
-<p><img loading="lazy" src="../image.assets/1677662324156.png" alt="1677662324156"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677662324156.png" alt="1677662324156"  />
 </p>
 <p>Jinja2 是一个现代的，设计者友好的，仿照 Django 模板的 Python 模板语言。 它速度快，被广泛使用，并且提供了可选的沙箱模板执行环境保证安全:
 特性:</p>
@@ -1538,7 +1538,7 @@ roles：多个角色的集合目录， 可以将多个的role，分别放至role
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
 </span></span></code></pre></div><h3 id="ansible-roles目录编排">Ansible Roles目录编排<a hidden class="anchor" aria-hidden="true" href="#ansible-roles目录编排">#</a></h3>
 <p>roles目录结构如下所示</p>
-<p><img loading="lazy" src="../image.assets/1677664119238.png" alt="1677664119238"  />
+<p><img loading="lazy" src="/posts.images/image.assets/1677664119238.png" alt="1677664119238"  />
 </p>
 <p>每个角色，以特定的层级目录结构进行组织
 roles目录结构：</p>

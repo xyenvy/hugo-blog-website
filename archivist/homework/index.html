@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>homework | Cookie</title>
+<meta name="keywords" content="">
+<meta name="description" content="村舍外，古城旁。杖藜徐步转斜阳。殷勤昨夜三更雨，又得浮生一日凉。">
+<meta name="author" content="Cookie">
+<link rel="canonical" href="http://hugo.itshare.work/archivist/homework/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.js" onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="http://hugo.itshare.work/img/Q.gif">
+<link rel="icon" type="image/png" sizes="16x16" href="http://hugo.itshare.work/img/Q.gif">
+<link rel="icon" type="image/png" sizes="32x32" href="http://hugo.itshare.work/img/Q.gif">
+<link rel="apple-touch-icon" href="http://hugo.itshare.work/img/Q.gif">
+<link rel="mask-icon" href="http://hugo.itshare.work/img/Q.gif">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script defer src="https://unpkg.com/mermaid@8.8.1/dist/mermaid.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+<script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.min.js"></script>
+
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = ""; 
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<meta property="og:title" content="homework" />
+<meta property="og:description" content="村舍外，古城旁。杖藜徐步转斜阳。殷勤昨夜三更雨，又得浮生一日凉。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://hugo.itshare.work/archivist/homework/" />
+<meta property="og:image" content="http://oss.itshare.work/itshare-work-images/2.jpg" /><meta property="article:section" content="archivist" />
+<meta property="article:published_time" content="2022-08-08T00:12:00+00:00" />
+<meta property="article:modified_time" content="2022-08-08T00:12:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://oss.itshare.work/itshare-work-images/2.jpg" />
+<meta name="twitter:title" content="homework"/>
+<meta name="twitter:description" content="村舍外，古城旁。杖藜徐步转斜阳。殷勤昨夜三更雨，又得浮生一日凉。"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+
+        {
+          "@type": "ListItem",
+          "position":  1 ,
+          "name": "📒归档",
+          "item": "http://hugo.itshare.work/archivist/"
+        }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "homework",
+      "item": "http://hugo.itshare.work/archivist/homework/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "homework",
+  "name": "homework",
+  "description": "村舍外，古城旁。杖藜徐步转斜阳。殷勤昨夜三更雨，又得浮生一日凉。",
+  "keywords": [
+    
+  ],
+  "articleBody": "第二周作业\n运行脚本可以显示出本机的ip地址 如果ip地址中有3这个数字，那么就打印出当前的系统时间 如果ip地址中不含3这个数字，就批量建立用户magedu_00, magedu_01, … magedu_100并且所有用户同属于magedu组 打印出/etc/passwd这个文件中可以登陆的用户（非/usr/sbin/nologin） yum安装nginx服务，并且启动该服务 #!/bin/bash #-------------------- #filename: #author:袁坤 #data:2022-08-07 #-------------------- set -e -u IP=`ifconfig -a |grep inet |grep -v inet6 | grep -v 127.0.0.1 | tr -s \" \" | cut -d \" \" -f3` echo 本机IP地址为:${IP} if echo ${I} | grep '3';then echo `date +%Y-%m-%d-%T` else groupadd magedu for i in magedu_{0..100};do useradd ${i} -g magedu done fi; NOLOGIN=`grep -v '/usr/sbin/nologin' /etc/passwd | cut -d \":\" -f1` echo ${NOLOGIN} . /etc/os-release if [ $ID = \"rocky\" -o $ID = \"centos\" ];then echo os is version ${ID} yum -y install nginx \u0026\u0026 systemctl start nginx else [ $ID = \"ubuntu\" ]; echo os is version $ID apt update \u0026\u0026 apt -y install nginx \u0026\u0026 systemctl start nginx fi; ",
+  "wordCount" : "309",
+  "inLanguage": "en",
+  "image":"http://oss.itshare.work/itshare-work-images/2.jpg","datePublished": "2022-08-08T00:12:00Z",
+  "dateModified": "2022-08-08T00:12:00Z",
+  "author":[{
+    "@type": "Person",
+    "name": "Cookie"
+  }],
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://hugo.itshare.work/archivist/homework/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Cookie",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://hugo.itshare.work/img/Q.gif"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    (function () {
+        let  arr,reg = new RegExp("(^| )"+"change-themes"+"=([^;]*)(;|$)");
+        if(arr = document.cookie.match(reg)) {
+        } else {
+            if (new Date().getHours() >= 19 || new Date().getHours() < 6) {
+                document.body.classList.add('dark');
+                localStorage.setItem("pref-theme", 'dark');
+            } else {
+                document.body.classList.remove('dark');
+                localStorage.setItem("pref-theme", 'light');
+            }
+        }
+    })()
+
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://hugo.itshare.work/" accesskey="h" title="Cookie (Alt + H)">
+            <img src="http://hugo.itshare.work/img/Q.gif" alt="logo" aria-label="logo"
+                 height="35">Cookie</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                         stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://hugo.itshare.work/search" title="🔍 搜索 (Alt &#43; /)" accesskey=/>
+                <span>🔍 搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://hugo.itshare.work/" title="🏠 主页">
+                <span>🏠 主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://hugo.itshare.work/posts" title="📚 文章">
+                <span>📚 文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://hugo.itshare.work/archivist" title="📒 归档">
+                <span>📒 归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://hugo.itshare.work/tags" title="🧩 标签">
+                <span>🧩 标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://hugo.itshare.work/archives/" title="⏱️ 时间轴">
+                <span>⏱️ 时间轴</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://hugo.itshare.work/about" title="🙋🏻‍♂️ 关于">
+                <span>🙋🏻‍♂️ 关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main page">
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+</style>
+
+<article class="post-single">
+    <div id="single-content">
+        <header class="post-header">
+            <div class="breadcrumbs"><a href="http://hugo.itshare.work/">🏠 主页</a>&nbsp;»&nbsp;<a href="http://hugo.itshare.work/archivist/">📒归档</a></div>
+            <h1 class="post-title">
+                homework
+            </h1>
+            <div class="post-description">
+                村舍外，古城旁。杖藜徐步转斜阳。殷勤昨夜三更雨，又得浮生一日凉。
+            </div>
+            <div class="post-meta">
+
+<style>
+    i[id*="post_meta_style"] {
+        display: flex;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    .parent-post-meta {
+        display: flex;
+        flex-wrap: wrap;
+        opacity: 0.8;
+    }
+</style>
+
+<span class="parent-post-meta">
+    <span id="post_meta_style_1">
+        <span class="fa fa-calendar-check-o"></span>
+        <span>2022-08-08
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    
+    
+    
+    
+    
+    
+    
+    <span id="post_meta_style_3">
+        <span class="fa fa-file-word-o"></span>
+        <span>309字
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_4">
+        <span class="fa fa-clock-o"></span>
+        <span>1分钟
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_5">
+        <span class="fa fa-user-o"></span>
+        <span>Cookie
+            &nbsp;&nbsp;
+        </span>
+    </span>
+    <span id="post_meta_style_6">
+        <span class="fa fa-tags" style="opacity: 0.8"></span>
+        <span>
+        </span>
+    </span>
+</span>
+<span style="opacity: 0.8;">
+                    <span id="post_meta_style_7">
+                        &nbsp;&nbsp;
+                        <span class="fa fa-eye" ></span>
+                        <span>
+                            <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span></span>
+                            &nbsp;&nbsp;
+                        </span>
+                    </span>
+                    <span id="post_meta_style_8">
+                        <span class="fa fa-commenting-o"></span>
+                        <span>
+                            <script src="https://cdn.staticfile.org/twikoo/1.5.8/twikoo.all.min.js"></script>
+                            <script>
+                                let url = document.documentURI
+                                
+                                let dnsUrl = "http://hugo.itshare.work/"
+                                let urlSplit = url.split(dnsUrl)
+                                let finalUrl = urlSplit[1]
+                                if (finalUrl[0] !== '/') {
+                                    finalUrl = '/'+finalUrl
+                                }
+                                twikoo.getCommentsCount({
+                                    envId:  null , 
+                                region:  null , 
+                                urls: [ 
+                                    
+                                    finalUrl,
+                                ],
+                                    includeReply: false 
+                                }).then(function (res) {
+                                    let count = res[0].count
+                                    const obj = document.getElementById("comment_count");
+                                    obj.innerText = count
+                                    
+                                    
+                                    
+                                }).catch(function (err) {
+                                    
+                                    console.error(err);
+                                });
+                            </script>
+                            <span id="comment_count"></span>
+                        </span>
+                    </span>
+                </span>
+
+</div>
+        </header> 
+<figure class="entry-cover1"><img style="zoom:;" loading="lazy" src="http://oss.itshare.work/itshare-work-images/2.jpg" alt="">
+    
+</figure>
+        <div class="post-content"><p><strong>第二周作业</strong></p>
+<ol>
+<li>运行脚本可以显示出本机的ip地址</li>
+<li>如果ip地址中有3这个数字，那么就打印出当前的系统时间</li>
+<li>如果ip地址中不含3这个数字，就批量建立用户magedu_00, magedu_01, &hellip; magedu_100并且所有用户同属于magedu组</li>
+<li>打印出/etc/passwd这个文件中可以登陆的用户（非/usr/sbin/nologin）</li>
+<li>yum安装nginx服务，并且启动该服务</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#75715e">#--------------------</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#filename:</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#author:袁坤</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#data:2022-08-07</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#--------------------</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>set -e -u
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>IP<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>ifconfig -a |grep inet |grep -v inet6 | grep -v 127.0.0.1 | tr -s <span style="color:#e6db74">&#34; &#34;</span> | cut -d <span style="color:#e6db74">&#34; &#34;</span> -f3<span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>echo 本机IP地址为:<span style="color:#e6db74">${</span>IP<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> echo <span style="color:#e6db74">${</span>I<span style="color:#e6db74">}</span> | grep <span style="color:#e6db74">&#39;3&#39;</span>;<span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>	echo <span style="color:#e6db74">`</span>date +%Y-%m-%d-%T<span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>	groupadd magedu
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> i in magedu_<span style="color:#f92672">{</span>0..100<span style="color:#f92672">}</span>;<span style="color:#66d9ef">do</span>
+</span></span><span style="display:flex;"><span>		useradd <span style="color:#e6db74">${</span>i<span style="color:#e6db74">}</span> -g magedu
+</span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">done</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>NOLOGIN<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>grep -v <span style="color:#e6db74">&#39;/usr/sbin/nologin&#39;</span> /etc/passwd | cut -d <span style="color:#e6db74">&#34;:&#34;</span> -f1<span style="color:#e6db74">`</span>
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">${</span>NOLOGIN<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>. /etc/os-release
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> $ID <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;rocky&#34;</span> -o $ID <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;centos&#34;</span> <span style="color:#f92672">]</span>;<span style="color:#66d9ef">then</span>
+</span></span><span style="display:flex;"><span>	echo os is version <span style="color:#e6db74">${</span>ID<span style="color:#e6db74">}</span>
+</span></span><span style="display:flex;"><span>	yum -y install nginx <span style="color:#f92672">&amp;&amp;</span> systemctl start nginx
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">else</span> <span style="color:#f92672">[</span> $ID <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;ubuntu&#34;</span> <span style="color:#f92672">]</span>;
+</span></span><span style="display:flex;"><span>	echo os is version $ID
+</span></span><span style="display:flex;"><span>	apt update <span style="color:#f92672">&amp;&amp;</span> apt -y install nginx <span style="color:#f92672">&amp;&amp;</span> systemctl start nginx
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">fi</span>;
+</span></span></code></pre></div>
+
+        </div>
+
+        <footer class="post-footer">
+            
+<nav class="paginav">
+  <a class="prev" href="http://hugo.itshare.work/archivist/%E8%BD%AF%E4%BB%B6%E7%AE%A1%E7%90%86/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>软件管理</span>
+  </a>
+  <a class="next" href="http://hugo.itshare.work/archivist/disk/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>磁盘存储和文件系统管理</span>
+  </a>
+</nav>
+
+        </footer>
+    </div>
+</article>
+</main>
+
+<footer class="footer">
+    <span>
+        Copyright
+        &copy;
+        2022-2023
+        <a href="http://hugo.itshare.work/" style="color:#939393;">Cookie</a>
+        All Rights Reserved
+    </span>
+    <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;"></a>&nbsp;
+    <span>
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=null"
+           style="display:inline-block;text-decoration:none;height:20px;color:#939393;">
+            <img src="" style="float:left;margin: 0px 5px 0px 0px;"/>
+            
+        </a>
+    </span>
+    <span id="busuanzi_container">
+        <span class="fa fa-user"></span> <span id="busuanzi_value_site_uv"></span>
+        <span class="fa fa-eye"></span> <span id="busuanzi_value_site_pv"></span>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <span class="topInner">
+        <svg class="topSvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z"/>
+        </svg>
+        <span id="read_progress"></span>
+    </span>
+</a>
+
+<script>
+    document.addEventListener('scroll', function (e) {
+        const readProgress = document.getElementById("read_progress");
+        const scrollHeight = document.documentElement.scrollHeight;
+        const clientHeight = document.documentElement.clientHeight;
+        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        readProgress.innerText = ((scrollTop / (scrollHeight - clientHeight)).toFixed(2) * 100).toFixed(0);
+    })
+</script>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+</script>
+<script>
+    let mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        (function() {
+            document.cookie = "change-themes" + "="+ escape ("false");
+        })()
+
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    });
+</script>
+
+<script>
+    document.body.addEventListener('copy', function (e) {
+        if (window.getSelection().toString() && window.getSelection().toString().length > 50) {
+            let clipboardData = e.clipboardData || window.clipboardData;
+            if (clipboardData) {
+                e.preventDefault();
+                let htmlData = window.getSelection().toString() +
+                    '\r\n\n————————————————\r\n' +
+                    '版权声明：本文为「'+"Cookie"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                let textData = window.getSelection().toString() +
+                    '\r\n\n————————————————\r\n' +
+                    '版权声明：本文为「'+"Cookie"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                clipboardData.setData('text/html', htmlData);
+                clipboardData.setData('text/plain', textData);
+            }
+        }
+    });
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = '📄复制';
+
+        function copyingDone() {
+            copybutton.innerText = '👌🏻已复制!';
+            setTimeout(() => {
+                copybutton.innerText = '📄复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                let text = codeblock.textContent +
+                    '\r\n————————————————\r\n' +
+                    '版权声明：本文为「'+"Cookie"+'」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。' +
+                '\r\n原文链接：' + location.href;
+                navigator.clipboard.writeText(text);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) {}
+            selection.removeRange(range);
+        });
+
+        let language = codeblock.className.replaceAll("language-", "")
+        let macTool = document.createElement("div")
+        let macTool1 = document.createElement("div")
+        let macTool2 = document.createElement("div")
+        let macTool3 = document.createElement("div")
+        let languageType = document.createElement("div")
+        languageType.innerText = language
+        macTool.setAttribute('class', 'mac-tool')
+        macTool1.setAttribute('class', 'mac bb1')
+        macTool2.setAttribute('class', 'mac bb2')
+        macTool3.setAttribute('class', 'mac bb3')
+        languageType.setAttribute('class', 'language-type')
+        macTool.appendChild(macTool1)
+        macTool.appendChild(macTool2)
+        macTool.appendChild(macTool3)
+        macTool.appendChild(languageType)
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+            container.appendChild(macTool)
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+            container.appendChild(macTool)
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+            container.appendChild(macTool)
+        }
+    });
+</script>
+</body>
+
+</html>
