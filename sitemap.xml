@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://hugo.itshare.work/guidang/</loc>
+    <loc>http://hugo.itshare.work/archivist/</loc>
     <lastmod>2023-06-05T00:18:06+08:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/</loc>
@@ -20,7 +20,7 @@
     <loc>http://hugo.itshare.work/categories/kubernetes/</loc>
     <lastmod>2023-06-05T00:18:06+08:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/kubernetes/</loc>
+    <loc>http://hugo.itshare.work/archivist/kubernetes/</loc>
     <lastmod>2023-06-05T00:18:06+08:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/kubernetes/kubernetes/</loc>
@@ -32,7 +32,7 @@
     <loc>http://hugo.itshare.work/categories/nginx/</loc>
     <lastmod>2023-06-05T00:18:06+08:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/nginx/</loc>
+    <loc>http://hugo.itshare.work/archivist/nginx/</loc>
     <lastmod>2023-06-05T00:18:06+08:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/nginx/nginx/</loc>
@@ -56,7 +56,7 @@
     <loc>http://hugo.itshare.work/categories/linux/</loc>
     <lastmod>2023-05-02T21:33:16+00:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/zabbix5%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</loc>
+    <loc>http://hugo.itshare.work/archivist/zabbix5%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2023-05-02T21:33:16+00:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/zabbix/zabbix5%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</loc>
@@ -68,7 +68,7 @@
     <loc>http://hugo.itshare.work/categories/ansible/</loc>
     <lastmod>2023-02-25T19:12:21+00:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/ansible2/</loc>
+    <loc>http://hugo.itshare.work/archivist/ansible2/</loc>
     <lastmod>2023-02-25T19:12:21+00:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/ansible/ansible2/</loc>
@@ -77,31 +77,28 @@
     <loc>http://hugo.itshare.work/posts/ansible/</loc>
     <lastmod>2023-02-25T19:12:21+00:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/ansible/</loc>
+    <loc>http://hugo.itshare.work/archivist/ansible/</loc>
     <lastmod>2023-02-21T19:12:21+00:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/ansible/ansible/</loc>
     <lastmod>2023-02-21T19:12:21+00:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/linux/</loc>
-    <lastmod>2022-12-17T09:28:09+00:00</lastmod>
-  </url><url>
     <loc>http://hugo.itshare.work/posts/linux/</loc>
     <lastmod>2022-12-17T09:28:09+00:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/linux/centos%E7%B3%BB%E7%BB%9Fyum%E9%85%8D%E7%BD%AE/</loc>
+    <loc>http://hugo.itshare.work/archivist/centos%E7%B3%BB%E7%BB%9Fyum%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2022-12-17T09:28:09+00:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/linux/centos%E7%B3%BB%E7%BB%9Fyum%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2022-12-17T09:28:09+00:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/linux/dns/</loc>
+    <loc>http://hugo.itshare.work/archivist/dns/</loc>
     <lastmod>2022-09-22T22:01:44+00:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/linux/dns/</loc>
     <lastmod>2022-09-22T22:01:44+00:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/linux/disk/</loc>
+    <loc>http://hugo.itshare.work/archivist/disk/</loc>
     <lastmod>2022-08-07T08:40:59+00:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/linux/disk/</loc>
@@ -113,7 +110,7 @@
     <loc>http://hugo.itshare.work/categories/docker/</loc>
     <lastmod>2022-05-05T00:18:06+08:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/docker/</loc>
+    <loc>http://hugo.itshare.work/archivist/docker/</loc>
     <lastmod>2022-05-05T00:18:06+08:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/docker/docker/</loc>
@@ -122,7 +119,7 @@
     <loc>http://hugo.itshare.work/posts/docker/</loc>
     <lastmod>2022-05-05T00:18:06+08:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/guidang/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</loc>
+    <loc>http://hugo.itshare.work/archivist/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</loc>
     <lastmod>2022-03-21T00:17:58+08:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/posts/kubernetes/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</loc>

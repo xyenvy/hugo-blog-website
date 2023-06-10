@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 02 May 2023 21:33:16 +0000</lastBuildDate><atom:link href="http://hugo.itshare.work/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>zabbix5部署安装</title>
-      <link>http://hugo.itshare.work/guidang/zabbix5%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</link>
+      <link>http://hugo.itshare.work/archivist/zabbix5%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</link>
       <pubDate>Tue, 02 May 2023 21:33:16 +0000</pubDate>
       
-      <guid>http://hugo.itshare.work/guidang/zabbix5%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</guid>
+      <guid>http://hugo.itshare.work/archivist/zabbix5%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</guid>
       <description>zabbix是一个监控软件，其可以监控各种网络参数，保证企业服务架构安全运营，同时支持灵活的告警机制，可以使得运维人员快速定位故障、解决问题zabbix是一个监控软件，其可以监控各种网络参数，保证企业服务架构安全运营，同时支持灵活的告警机制，可以使得运维人员快速定位故障、解决问题</description>
     </item>
     
@@ -27,10 +27,10 @@
     
     <item>
       <title>Centos系统yum源配置</title>
-      <link>http://hugo.itshare.work/guidang/linux/centos%E7%B3%BB%E7%BB%9Fyum%E9%85%8D%E7%BD%AE/</link>
+      <link>http://hugo.itshare.work/archivist/centos%E7%B3%BB%E7%BB%9Fyum%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Sat, 17 Dec 2022 09:28:09 +0000</pubDate>
       
-      <guid>http://hugo.itshare.work/guidang/linux/centos%E7%B3%BB%E7%BB%9Fyum%E9%85%8D%E7%BD%AE/</guid>
+      <guid>http://hugo.itshare.work/archivist/centos%E7%B3%BB%E7%BB%9Fyum%E9%85%8D%E7%BD%AE/</guid>
       <description>yum 的理念是使用一个中心仓库(repository)管理一部分甚至一个distribution 的应用程序相互关系，根据计算出来的软件依赖关系进行相关的升级、安装、删除等等操作，减少了Linux 用户一直头痛的dependencies 的问题</description>
     </item>
     
@@ -45,10 +45,10 @@
     
     <item>
       <title>DNS服务</title>
-      <link>http://hugo.itshare.work/guidang/linux/dns/</link>
+      <link>http://hugo.itshare.work/archivist/dns/</link>
       <pubDate>Thu, 22 Sep 2022 22:01:44 +0000</pubDate>
       
-      <guid>http://hugo.itshare.work/guidang/linux/dns/</guid>
+      <guid>http://hugo.itshare.work/archivist/dns/</guid>
       <description>DNS一般指域名系统。 域名系统（英文：Domain Name System，缩写：DNS）是互联网的一项服务。它作为将域名和IP地址相互映射的一个分布式数据库，能够使人更方便地访问互联网。DNS使用UDP端口53</description>
     </item>
     
@@ -63,10 +63,10 @@
     
     <item>
       <title>磁盘存储和文件系统管理</title>
-      <link>http://hugo.itshare.work/guidang/linux/disk/</link>
+      <link>http://hugo.itshare.work/archivist/disk/</link>
       <pubDate>Sun, 07 Aug 2022 08:40:59 +0000</pubDate>
       
-      <guid>http://hugo.itshare.work/guidang/linux/disk/</guid>
+      <guid>http://hugo.itshare.work/archivist/disk/</guid>
       <description>磁盘是计算机主要的存储介质，可以存储大量的二进制数据，并且断电后也能保持数据不丢失，使用磁盘存储数据的时候我们可以将磁盘划分成我们所需要的格式来进行使用</description>
     </item>
     
