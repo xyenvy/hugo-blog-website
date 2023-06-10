@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>📕 Ansible on Cookie</title>
+    <link>http://hugo.itshare.work/posts/ansible/</link>
+    <description>Recent content in 📕 Ansible on Cookie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 25 Feb 2023 19:12:21 +0000</lastBuildDate><atom:link href="http://hugo.itshare.work/posts/ansible/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>运维自动化工具Ansible(二)</title>
+      <link>http://hugo.itshare.work/posts/ansible/ansible2/</link>
+      <pubDate>Sat, 25 Feb 2023 19:12:21 +0000</pubDate>
+      
+      <guid>http://hugo.itshare.work/posts/ansible/ansible2/</guid>
+      <description>Ansible 的名称来自科幻小说《安德的游戏》中跨越时空的即时通信工具，使用它可以在相距数光年的距离,远程实时控制前线的舰队战斗.</description>
+    </item>
+    
+    <item>
+      <title>运维自动化工具Ansible(一)</title>
+      <link>http://hugo.itshare.work/posts/ansible/ansible/</link>
+      <pubDate>Tue, 21 Feb 2023 19:12:21 +0000</pubDate>
+      
+      <guid>http://hugo.itshare.work/posts/ansible/ansible/</guid>
+      <description>Ansible 的名称来自科幻小说《安德的游戏》中跨越时空的即时通信工具，使用它可以在相距数光年的距离,远程实时控制前线的舰队战斗</description>
+    </item>
+    
+  </channel>
+</rss>
