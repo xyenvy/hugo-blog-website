@@ -90,10 +90,10 @@
     
     <item>
       <title>搭建Kubernetes集群</title>
-      <link>http://hugo.itshare.work/posts/kubernetes/kubernetes/</link>
+      <link>http://hugo.itshare.work/posts/kubernetes/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</link>
       <pubDate>Mon, 21 Mar 2022 00:17:58 +0800</pubDate>
       
-      <guid>http://hugo.itshare.work/posts/kubernetes/kubernetes/</guid>
+      <guid>http://hugo.itshare.work/posts/kubernetes/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</guid>
       <description>Kubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理</description>
     </item>
     
@@ -106,16 +106,16 @@
       <description>Sulv&amp;#39;s Blog 一个记录技术、阅读、生活的博客 👉友链格式 名称： Sulv&amp;rsquo;s Blog 网址： https://www.sulvblog.cn 图标： https://www.sulvblog.cn/img/Q.gif 描述： 一个记录技术、阅读、生活的博客 👉友链申请要求 秉承互换友链原则、文章定期更新、不能有太多广告、个人描述字数控制在15字内 👉Hugo博客交流群 787018782</description>
     </item>
     
+    
+    
     <item>
       <title>🙋🏻‍♂️关于</title>
       <link>http://hugo.itshare.work/about/</link>
-      <pubDate>Sat, 06 Nov 2021 14:57:28 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://hugo.itshare.work/about/</guid>
-      <description>关于我 英文名: Kevin Xu 职业: 程序员 运动: 跑步、乒乓球、爬山</description>
+      <description>关于博客 为什么我要搭建这个博客呢？ 因为生命在于折腾 因为平时学习查找资料的时候，偶尔会发现一些非常精致的个人网站，那个时候就在想，什么时候俺也要整一个，然后用来写博客 。无奈由于各种原因 (懒)，一直没有捡起来，后来总算是找到一个不错的应用，折腾着建起来了，也打算督促自己克服懒癌，来记</description>
     </item>
-    
-    
     
   </channel>
 </rss>

@@ -18,10 +18,10 @@
     
     <item>
       <title>搭建Kubernetes集群</title>
-      <link>http://hugo.itshare.work/posts/kubernetes/kubernetes/</link>
+      <link>http://hugo.itshare.work/posts/kubernetes/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</link>
       <pubDate>Mon, 21 Mar 2022 00:17:58 +0800</pubDate>
       
-      <guid>http://hugo.itshare.work/posts/kubernetes/kubernetes/</guid>
+      <guid>http://hugo.itshare.work/posts/kubernetes/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</guid>
       <description>Kubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理</description>
     </item>
     

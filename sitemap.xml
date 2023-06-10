@@ -89,18 +89,17 @@
     <loc>http://hugo.itshare.work/posts/docker/docker/</loc>
     <lastmod>2022-05-05T00:18:06+08:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/posts/kubernetes/kubernetes/</loc>
+    <loc>http://hugo.itshare.work/posts/kubernetes/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</loc>
     <lastmod>2022-03-21T00:17:58+08:00</lastmod>
   </url><url>
     <loc>http://hugo.itshare.work/links/</loc>
     <lastmod>2021-11-06T15:15:53+08:00</lastmod>
   </url><url>
-    <loc>http://hugo.itshare.work/about/</loc>
-    <lastmod>2021-11-06T14:57:28+08:00</lastmod>
-  </url><url>
     <loc>http://hugo.itshare.work/archives/</loc>
   </url><url>
     <loc>http://hugo.itshare.work/search/</loc>
+  </url><url>
+    <loc>http://hugo.itshare.work/about/</loc>
   </url><url>
     <loc>http://hugo.itshare.work/series/</loc>
   </url>
