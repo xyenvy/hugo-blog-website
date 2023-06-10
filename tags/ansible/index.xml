@@ -9,11 +9,29 @@
     <lastBuildDate>Sat, 25 Feb 2023 19:12:21 +0000</lastBuildDate><atom:link href="http://hugo.itshare.work/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>运维自动化工具Ansible(二)</title>
+      <link>http://hugo.itshare.work/guidang/ansible2/</link>
+      <pubDate>Sat, 25 Feb 2023 19:12:21 +0000</pubDate>
+      
+      <guid>http://hugo.itshare.work/guidang/ansible2/</guid>
+      <description>Ansible 的名称来自科幻小说《安德的游戏》中跨越时空的即时通信工具，使用它可以在相距数光年的距离,远程实时控制前线的舰队战斗.</description>
+    </item>
+    
+    <item>
+      <title>运维自动化工具Ansible(二)</title>
       <link>http://hugo.itshare.work/posts/ansible/ansible2/</link>
       <pubDate>Sat, 25 Feb 2023 19:12:21 +0000</pubDate>
       
       <guid>http://hugo.itshare.work/posts/ansible/ansible2/</guid>
       <description>Ansible 的名称来自科幻小说《安德的游戏》中跨越时空的即时通信工具，使用它可以在相距数光年的距离,远程实时控制前线的舰队战斗.</description>
+    </item>
+    
+    <item>
+      <title>运维自动化工具Ansible(一)</title>
+      <link>http://hugo.itshare.work/guidang/ansible/</link>
+      <pubDate>Tue, 21 Feb 2023 19:12:21 +0000</pubDate>
+      
+      <guid>http://hugo.itshare.work/guidang/ansible/</guid>
+      <description>Ansible 的名称来自科幻小说《安德的游戏》中跨越时空的即时通信工具，使用它可以在相距数光年的距离,远程实时控制前线的舰队战斗</description>
     </item>
     
     <item>
