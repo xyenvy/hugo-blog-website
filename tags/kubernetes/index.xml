@@ -6,11 +6,11 @@
     <description>Recent content in Kubernetes on Cookie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 05 Jun 2023 00:18:06 +0800</lastBuildDate><atom:link href="http://hugo.itshare.work/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 00:18:06 +0800</lastBuildDate><atom:link href="http://hugo.itshare.work/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes详细教程</title>
       <link>http://hugo.itshare.work/archivist/kubernetes/</link>
-      <pubDate>Mon, 05 Jun 2023 00:18:06 +0800</pubDate>
+      <pubDate>Fri, 05 May 2023 00:18:06 +0800</pubDate>
       
       <guid>http://hugo.itshare.work/archivist/kubernetes/</guid>
       <description>Kubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Kubernetes详细教程</title>
       <link>http://hugo.itshare.work/posts/kubernetes/kubernetes/</link>
-      <pubDate>Mon, 05 Jun 2023 00:18:06 +0800</pubDate>
+      <pubDate>Fri, 05 May 2023 00:18:06 +0800</pubDate>
       
       <guid>http://hugo.itshare.work/posts/kubernetes/kubernetes/</guid>
       <description>Kubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理</description>
@@ -28,7 +28,7 @@
     <item>
       <title>搭建Kubernetes集群</title>
       <link>http://hugo.itshare.work/archivist/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</link>
-      <pubDate>Mon, 21 Mar 2022 00:17:58 +0800</pubDate>
+      <pubDate>Tue, 21 Mar 2023 00:17:58 +0800</pubDate>
       
       <guid>http://hugo.itshare.work/archivist/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</guid>
       <description>Kubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理</description>
@@ -37,7 +37,7 @@
     <item>
       <title>搭建Kubernetes集群</title>
       <link>http://hugo.itshare.work/posts/kubernetes/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</link>
-      <pubDate>Mon, 21 Mar 2022 00:17:58 +0800</pubDate>
+      <pubDate>Tue, 21 Mar 2023 00:17:58 +0800</pubDate>
       
       <guid>http://hugo.itshare.work/posts/kubernetes/%E6%90%AD%E5%BB%BAkubernetes%E9%9B%86%E7%BE%A4/</guid>
       <description>Kubernetes 是一个开源的容器编排引擎，用来对容器化应用进行自动化部署、 扩缩和管理</description>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>🧨 Redis on Cookie</title>
+    <link>http://hugo.itshare.work/posts/redis/</link>
+    <description>Recent content in 🧨 Redis on Cookie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 09 Feb 2023 14:59:00 +0000</lastBuildDate><atom:link href="http://hugo.itshare.work/posts/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis学习笔记</title>
+      <link>http://hugo.itshare.work/posts/redis/redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 09 Feb 2023 14:59:00 +0000</pubDate>
+      
+      <guid>http://hugo.itshare.work/posts/redis/redis%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>Redis 是完全开源免费的，遵守BSD协议，是一个高性能(NOSQL)的key-value数据库，Redis是一个开源的使用ANSI C语言编写、支持网络、可基于内存可持久化的日志型，Key-Value数据库，并提供多种语言的API</description>
+    </item>
+    
+  </channel>
+</rss>
