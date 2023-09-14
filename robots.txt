@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://hugo.itshare.work/sitemap.xml
+Sitemap: http://gz0854.com/sitemap.xml
